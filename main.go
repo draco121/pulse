@@ -1,8 +1,8 @@
 package main
 
 import (
-	"github.com/draco121/common/database"
-	"github.com/draco121/common/utils"
+	"github.com/draco121/horizon/database"
+	"github.com/draco121/horizon/utils"
 	"github.com/gin-gonic/gin"
 	"github.com/joho/godotenv"
 	"os"

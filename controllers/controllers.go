@@ -2,7 +2,7 @@ package controllers
 
 import (
 	"fmt"
-	"github.com/draco121/common/models"
+	"github.com/draco121/horizon/models"
 	"github.com/gin-gonic/gin"
 	"go.mongodb.org/mongo-driver/bson/primitive"
 	"net/http"
