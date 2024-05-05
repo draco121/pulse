@@ -6,10 +6,10 @@ import (
 	"github.com/gin-gonic/gin"
 	"github.com/joho/godotenv"
 	"os"
-	"trainingservice/controllers"
-	"trainingservice/core"
-	"trainingservice/repository"
-	"trainingservice/routes"
+	"pulse/controllers"
+	"pulse/core"
+	"pulse/repository"
+	"pulse/routes"
 )
 
 func RunApp() {

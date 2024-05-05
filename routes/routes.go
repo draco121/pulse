@@ -5,7 +5,7 @@ import (
 	"github.com/draco121/horizon/middlewares"
 	"github.com/draco121/horizon/utils"
 	"github.com/gin-gonic/gin"
-	"trainingservice/controllers"
+	"pulse/controllers"
 )
 
 func RegisterRoutes(controllers controllers.Controllers, router *gin.Engine) {

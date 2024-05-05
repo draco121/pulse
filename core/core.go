@@ -9,8 +9,8 @@ import (
 	"go.mongodb.org/mongo-driver/mongo"
 	"mime/multipart"
 	"path"
+	"pulse/repository"
 	"slices"
-	"trainingservice/repository"
 )
 
 type ITrainingService interface {

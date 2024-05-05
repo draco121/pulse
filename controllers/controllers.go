@@ -7,7 +7,7 @@ import (
 	"go.mongodb.org/mongo-driver/bson/primitive"
 	"net/http"
 	"os"
-	"trainingservice/core"
+	"pulse/core"
 )
 
 type Controllers struct {

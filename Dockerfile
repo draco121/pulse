@@ -7,7 +7,7 @@ WORKDIR /app
 # Copy the Go application source code into the container
 COPY . .
 
-RUN go get -u all
+RUN go get
 
 # Build the Go application
 RUN CGO_ENABLED=0 GOOS=linux go build -a -installsuffix cgo -o trainingservice .
